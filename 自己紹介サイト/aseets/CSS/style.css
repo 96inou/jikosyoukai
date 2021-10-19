@@ -1,0 +1,182 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+    background-color:#a1c5ee;
+}
+
+.header-left span{
+    color: white;
+    font-size: 50px;
+}
+
+.header-right ul{
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 50px;
+    
+}
+
+.header-right li{
+    margin-left: 50px;
+    
+}
+
+.header-right a{
+    color: white;
+    text-decoration: none;
+}
+.letter:hover {
+    color: #c3e9e4;
+    }
+.insta:hover {
+    color: #c3e9e4;
+    }
+
+.twitter:hover{
+    color: #c3e9e4;
+    }
+
+.ue{
+    height: 100％;
+    color:#a1c5ee;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+.ue .name{
+    margin: 50px 80px 0;
+    cursor: pointer;
+    border: solid 1px rgb(140, 174, 224);
+    color: rgb(255, 255, 255);
+    padding: 32px;
+    transition: all 0.3s;
+    }
+        
+.name:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(127, 189, 230);
+    border-radius: 20px;
+     }
+
+.ue .jikosyoukai{
+    margin: 30px 0 0;
+}
+
+.name{
+    font-size: 50px;
+    
+}
+
+.jikosyoukai{
+    font-size: 30px;
+    text-align: center;
+    padding: 0.5em 1em;
+    color: #FFF;
+    width: 500px;
+    height: 300px;
+    /* background: -moz-linear-gradient(#4893be, #edfa3c);
+    background: -webkit-linear-gradient(#4893be,#edfa3c); */
+    background: linear-gradient(to right,#4893be ,#edfa3c);
+    border-radius: 30px;
+}
+.jikosyoukai p {
+    margin-top: 50px;
+}
+
+.ikon img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin: 30px 100px 0;
+}
+
+.ikon{
+    display: flex;
+}
+
+.mannaka{
+    text-align: center;
+    color: #3c546e;
+    margin: 20px;
+}
+
+h2{
+    font-size: 50px;
+    margin: 80px 0 40px;
+}
+
+.mannaka img{
+    border-radius: 30px;
+}
+
+.mannaka p{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.sita{
+    text-align: center;
+    color: #3c546e;
+    margin: 20px;
+}
+
+h2{
+    font-size: 50px;
+    margin: 80px 0 40px;
+}
+
+.sita img{
+    border-radius: 30px;
+    width: 850px;
+}
+
+.sita p{
+    margin: 10px;
+    font-size: 20px;
+}
+
+h3{
+    margin: 10px;
+}
+
+form {
+     /* width: 500px; */
+     border: solid 1px rgb(100, 46, 201);
+     color:#3c546e ;
+
+ }
+ 
+label {
+    display: block;
+   }
+ 
+.example{
+    text-align: center;
+    margin: 10px;
+}
+
+.senntakusi{
+    display: flex;
+    justify-content: center;
+}
+
+.senntakusi p{
+    border: solid 1px rgb(100, 46, 201);
+    padding: 5px;
+}
+
+.senntakusi label{
+    margin: 10px;
+}
+footer{
+    background-color: #a1c5ee;
+    color:white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    font-size: 20px;
+    
+  }

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://kit.fontawesome.com/b9a588db26.js" crossorigin="anonymous"></script>
+    <title>Profile</title>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <span>Profile</span>
+        </div>
+        <div class="header-right">
+            <ul>
+                <li><a href="#section-01"><i class="fas fa-envelope-square letter"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram-square insta"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter-square twitter"></i></a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="ue">
+            <h1 class="name">友利さくら</h1>
+        <div class="jikosyoukai">
+            <p>1998/8/19生まれ</p>
+            <p>しし座のA型</p>
+            <p>沖縄県豊見城市出身</p>
+        </div> 
+        <div class="ikon">
+            <img src="./img/IMG_2246.GIF" alt="img">
+        </div>
+        </section>
+        <section class="mannaka">
+            <h2 class="title">趣味は麻雀</h2>
+            <div class="syumi">
+            <img src="./img/IMG_E2244.JPG" alt="mj">
+            <p class="setumei">高校二年生の時に漫画『アカギ』を読んで好きになりました。画像は『大三元』という役満をあがった時のものです。</p>
+            </div>
+        </section>
+        <section class="sita">
+            <h2 class="title">好きなの</h2>
+            <div class="aisu">
+            <img src="./img/ガリガリ君.jpg" alt="ais">
+            <p class="setumei1">子供の頃からチョコミントが好きです。ガリガリ君のチョコミントがカロリー低く、氷の粒が大きめですがしっかりチョコミントの味がします。</p>
+            </div>
+        </section>
+    </main>
+    <form>
+        <div class="example">
+            <h3 id="section-01">お問い合わせ</h3>
+            <label for="namelabel">名前</label>
+            <input type="text" name="name" id="namelabel" placeholder="例）比嘉　正樹">
+          </div>
+          <div class="example">
+            <label for="maillabel">メアド</label>
+            <input class="inputs" type="email" name="email" id="maillabel" placeholder="○○○.jp">
+          </div>
+         <div class="senntakusi">
+             <p>チョコミントは？</p>
+            <label for="redlabel">
+                <input type="radio" name="color" value="Like" id="redlabel">
+             好き
+            </label>
+            <label for="bluelabel">
+                <input type="radio" name="color" value="Don't realiy like" id="redlabel">
+             嫌い
+            </label>
+            <label for="yellowlabel">
+                <input type="radio" name="color" value="It's OK" id="yellowlabel">
+             普通
+            </label>
+        </div>
+           <div class="example">
+            <label for="ikenlabel">コメント</label>
+            <textarea id="iken"></textarea>
+          </div>
+          <div class="example">
+            <input type="submit" value="送信する">
+          </div>  
+    </form>
+    <footer>
+        <p>END  <small>&#169;</small> sakura tomori.</p>
+  </footer>
+</body>
+</html>
